@@ -1,9 +1,11 @@
 public class WaterBottle {
-    public int volume = 100;
+    private int volume = 100;
 
     public WaterBottle() {
         this.volume = volume;
     }
+
+    public int getVolume() { return volume;}
 
     public void drink() {
         volume -= 10;
